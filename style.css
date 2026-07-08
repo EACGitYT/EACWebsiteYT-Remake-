@@ -7,3 +7,11 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 50px;
+}
