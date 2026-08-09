@@ -28,6 +28,17 @@ body {
     list-style: none;
 }
 
+.navbar a{ 
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.navbar a:hover{
+    transition: scale(1.1);
+    color: #007acc;
+}
+
 .introduction {
     text-align: center;
     padding: 50px;
