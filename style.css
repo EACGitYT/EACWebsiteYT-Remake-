@@ -32,7 +32,7 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #333;
-    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: transform 0.2s;
 }
 
 .navbar a:hover{
