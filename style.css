@@ -21,6 +21,12 @@ body {
     height: 80px;
     padding: 0 50px;
 }
+
+.navbar ul{
+    display: flex;
+    gap: 30px;
+}
+
 .introduction {
     text-align: center;
     padding: 50px;
