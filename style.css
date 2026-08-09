@@ -29,6 +29,7 @@ body {
 }
 
 .navbar a{ 
+    display: inline-block;
     text-decoration: none;
     color: #333;
     transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
