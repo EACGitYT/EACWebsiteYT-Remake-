@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+.home{
+    background-image: url("EACWebsiteYT-Remake-/images/website-background.jpg");
+    background-size: cover;
+}
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
