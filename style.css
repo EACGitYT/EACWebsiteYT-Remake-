@@ -11,6 +11,7 @@
     background-image: url("images/web-backgroundhome.png");
     background-size: cover;
     display: flex;
+    justify-content: center;
 }
 body {
     font-family: 'Roboto', sans-serif;
