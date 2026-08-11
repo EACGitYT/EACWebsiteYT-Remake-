@@ -10,6 +10,7 @@
     height: calc(100vh - 80px);
     background-image: url("images/web-backgroundhome.png");
     background-size: cover;
+    display: flex;
 }
 body {
     font-family: 'Roboto', sans-serif;
