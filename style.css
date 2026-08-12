@@ -63,6 +63,10 @@ body {
     font-size: 50px;
 }
 
+.introduction p{
+    margin-top: 15px;
+}
+
 /* Button style used for links like the About button */
 .btn{
     display: inline-block;
