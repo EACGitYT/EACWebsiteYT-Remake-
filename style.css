@@ -52,6 +52,7 @@ body {
     transition: scale(1.1);
     color: #007acc;
     text-decoration: underline;
+    transform: scale(1.05);
 }
 
 .navbar h2{
