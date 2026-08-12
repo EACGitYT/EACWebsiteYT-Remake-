@@ -59,6 +59,10 @@ body {
     color:white;
 }
 
+.introduction h1{
+    font-size: 50px;
+}
+
 /* Button style used for links like the About button */
 .btn{
     display: inline-block;
