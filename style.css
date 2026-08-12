@@ -61,10 +61,15 @@ body {
 
 .introduction h1{
     font-size: 50px;
+    margin-bottom: 15px;
 }
 
 .introduction p{
     margin-top: 15px;
+}
+
+.introduction .btn{
+    margin-top: 10px;
 }
 
 /* Button style used for links like the About button */
