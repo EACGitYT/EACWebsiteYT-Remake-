@@ -131,11 +131,8 @@ body {
 
     margin-bottom: 100px;
 }
-.stumble-guys-crown h2{
-    font-size: 40px;
-    width: 40%;
-}
-.stumble-guys-crown iframe{
+
+.stumble-guys-crown, .sg-tournament iframe{
     width: 50%;
     aspect-ratio: 16 / 9;
     border: none;
@@ -151,14 +148,7 @@ body {
     flex-direction: row-reverse;
 }
 
-.sg-tournament h2{
+.sg-tournament, .stumble-guys-crown h2{
     font-size: 40px;
     width: 40%;
-}
-
-.sg-tournament iframe{
-    width: 50%;
-    aspect-ratio: 16 / 9;
-    border: none;
-    border-radius: 10px;
 }
