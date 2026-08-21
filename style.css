@@ -123,3 +123,42 @@ body {
     font-size: 18px;
     line-height: 1.7;
 }
+/*Crown SG*/
+.stumble-guys-crown{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 100px;
+}
+.stumble-guys-crown h2{
+    font-size: 40px;
+    width: 40%;
+}
+.stumble-guys-crown iframe{
+    width: 50%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 10px;
+}
+
+/*tournamnet sg*/
+.sg-tournament{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+    flex-direction: row-reverse;
+}
+
+.sg-tournament h2{
+    font-size: 40px;
+    width: 40%;
+}
+
+.sg-tournament iframe{
+    width: 50%;
+    aspect-ratio: 16/ 9;
+    border: none;
+    border-radius: 10px;
+}
