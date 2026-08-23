@@ -171,4 +171,9 @@ body {
     flex-direction: row-reverse;
 }
 
+/* Adding texts*/
+.stumble-guys-crown p, .playlist-text p{
+    font-size: 18px;
+    line-height: 1.6;
+}
 /* Among Us Playlist */
