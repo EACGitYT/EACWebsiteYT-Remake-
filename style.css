@@ -199,3 +199,52 @@ body {
     line-height: 1.6;
 }
 /* Among Us Playlist */
+.au-gameplay, .au-funny-moments, .au-live-streaming{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+/* AU TEXT */
+.au-gameplay .playlist-text,
+.au-funny-moments .playlist-text,
+.au-live-streaming .playlist-text{
+    width: 40%;
+}
+
+.au-gampelay h2, .au-funny-moments h2, .au-live-streaming h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.au-gameplay p, .au-funny-moments p, .au-live-streaming p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* AU IFRAME */
+.au-gameplay iframe, .au-funny-moments iframe, .au-live-streaming iframe{
+    width: 50%;
+    aspect-ratio: 16 / 9;
+
+    border: none;
+    border-radius: 10px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.au-gameplay{
+    flex-direction: row;
+}
+
+.au-funny-moments{
+    flex-direction: row-reverse;
+}
+
+.au-live-streaming{
+    flex-direction: row;
+}
