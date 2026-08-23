@@ -127,8 +127,7 @@ body {
 .stumble-guys-crown, .sg-trournament{
     display:flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: space-between; 
     margin-bottom: 100px;
 }
 
@@ -140,6 +139,10 @@ body {
 }
 
 /*tournamnet sg*/
+
+.sg-tournament{
+    flex-direction: row-reverse;
+}
 
 .sg-tournament h2, .stumble-guys-crown h2{
     font-size: 40px;
