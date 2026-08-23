@@ -95,7 +95,7 @@ body {
 }
 
 /* Stumble Guys Playlist */
-.game-section stumble-guys{
+.game-section .stumble-guys{
     min-height: 100vh;
     /* sg-background */
     background-image:
