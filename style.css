@@ -124,10 +124,21 @@ body {
     font-size: 18px;
     line-height: 1.7;
 }
+
+/*SG Playlist*/
+/* mobile */
+@media (max-wdith: 768px){
+    .game-section {
+        padding: 60px 7%;
+    }
+    .game-text h1{
+        font-size: 40px;
+    }
+    .game-text p{
+        font-size: 16px;
+    }
+}
 /*Crown SG*/
-/* =========================
-   STUMBLE GUYS PLAYLISTS
-   ========================= */
 
 .stumble-guys-crown,
 .sg-tournament {
