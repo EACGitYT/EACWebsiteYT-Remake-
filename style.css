@@ -124,29 +124,51 @@ body {
     line-height: 1.7;
 }
 /*Crown SG*/
-.stumble-guys-crown, .sg-trournament{
-    display:flex;
+/* =========================
+   STUMBLE GUYS PLAYLISTS
+   ========================= */
+
+.stumble-guys-crown,
+.sg-tournament {
+    display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
+
+    width: 100%;
     margin-bottom: 100px;
 }
 
-.stumble-guys-crown iframe, .sg-tournament iframe{
+/* Headings */
+
+.stumble-guys-crown h2,
+.sg-tournament h2 {
+    font-size: 40px;
+    width: 40%;
+}
+
+/* YouTube videos */
+
+.stumble-guys-crown iframe,
+.sg-tournament iframe {
     width: 50%;
     aspect-ratio: 16 / 9;
+
     border: none;
     border-radius: 10px;
 }
 
-/*tournamnet sg*/
+/* Crown Grinding
+   Text LEFT → Video RIGHT */
 
-.sg-tournament{
-    flex-direction: row-reverse;
+.stumble-guys-crown {
+    flex-direction: row;
 }
 
-.sg-tournament h2, .stumble-guys-crown h2{
-    font-size: 40px;
-    width: 40%;
+/* Tournament
+   Video LEFT → Text RIGHT */
+
+.sg-tournament {
+    flex-direction: row-reverse;
 }
 
 /* Among Us Playlist */
