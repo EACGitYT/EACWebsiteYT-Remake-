@@ -128,7 +128,7 @@ body {
 
 /*SG Playlist*/
 /* mobile */
-@media (max-wdith: 768px){
+@media (max-width: 768px){
     .game-section {
         padding: 60px 7%;
     }
