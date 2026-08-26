@@ -95,18 +95,20 @@ body {
 }
 
 /* Stumble Guys Playlist */
-.stumble-guys{
+.game-section {
     min-height: 100vh;
-    /* sg-background */
+    padding: 80px 10%;
+    color: white;
+}
+
+.stumble-guys {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("images/sg-background.png");
-    
+
     background-size: cover;
     background-position: center;
-
-    color: white;
-    padding: 80px 10%;
+    background-repeat: no-repeat;
 }
 
 .game-text{
