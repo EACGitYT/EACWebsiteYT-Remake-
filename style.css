@@ -108,13 +108,14 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    color: white;
 }
 
 .game-text{
     max-width: 900px;
     margin: 0 auto 80px;
     text-align: center;
-    color: white;
 }
 .game-text h1{
     font-size: 55px;
